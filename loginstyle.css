@@ -31,9 +31,45 @@ input:focus {
     outline: none;
 }
 
-.text-decoration-line-through {
-    border-bottom: 2px solid;
-    width: 50%;
-    margin: 0 auto;
-    z-index: 1;
+@media (min-width: 1024px) {
+
+    main {
+        margin: 2% 38%;
+        background-color: white;
+        margin-left: 1400px;
+        margin-right: 100px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    div {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+}
+
+@media (min-width: 400px) and (max-width: 800px) {
+
+    main {
+        margin:69px 50px; 
+        background-color: white;
+    }
+    div {
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+    footer{
+        font-size:12px ;
+    }
+    footer i{
+        width: 5px;
+        height: 5px; 
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    footer div{
+        display: flex;
+        flex-direction: column;
+    }
 }
