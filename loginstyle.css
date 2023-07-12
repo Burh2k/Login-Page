@@ -1,0 +1,39 @@
+section {
+    background-image: url(bg-coffee.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+main {
+    margin: 2% 38%;
+    background-color: white;
+    margin-left: 1400px;
+    margin-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+div {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+button[type="submit"]:hover {
+    color: white;
+    background: #14A44D;
+    transition: 0.3s;
+}
+
+input:focus {
+    outline: none;
+}
+
+.text-decoration-line-through {
+    border-bottom: 2px solid;
+    width: 50%;
+    margin: 0 auto;
+    z-index: 1;
+}
